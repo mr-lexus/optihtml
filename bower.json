@@ -1,0 +1,27 @@
+{
+  "name": "Optihtml",
+  "description": "Optihtml",
+  "main": "index.js",
+  "authors": [
+    "Zabojca"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mr-lexus/optimizedhtml-start-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Headhesive.js": "headhesive.js#^1.2.4",
+    "jquery.maskedinput": "^1.4.1",
+    "jquery": "^3.2.1",
+    "magnific-popup": "^1.1.0",
+    "reset-css": "^2.2.1",
+    "sweetalert": "^2.0.7",
+    "swiper": "^4.0.2"
+  }
+}
