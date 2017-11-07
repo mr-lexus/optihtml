@@ -99,6 +99,12 @@ gulp.task('removedist', function() { return del.sync('dist'); });
 
 gulp.task('build', ['removedist', 'buildhtml', 'sass', 'libs', 'imagemin'], function() {
 
+	var buildCss = gulp.src([
+		'app/css/fonts.min.css',
+		'app/css/main.min.css'
+		]).pipe(gulp.dest('dist/css'));
+
+
 	var buildFiles = gulp.src([
 		'app/.htaccess'
 	]).pipe(gulp.dest('dist'));

@@ -6,7 +6,7 @@
     "Zabojca"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/mr-lexus/optimizedhtml-start-template",
+  "homepage": "https://github.com/mr-lexus/optihtml",
   "ignore": [
     "**/.*",
     "node_modules",
